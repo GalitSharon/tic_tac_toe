@@ -75,8 +75,3 @@ class Controller {
 
 export default Controller;
 
-let controller = new Controller();
-controller.initGame();
-
-document.getElementById('startGameButton').addEventListener('click', () => controller.initGame());
-
